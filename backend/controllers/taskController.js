@@ -1,6 +1,5 @@
 const Task = require("../models/Task");
-
-// POST /api/tasks
+// POST /api/task
 exports.createTask = async (req, res) => {
   try {
     const { title, startTime, endTime, priority } = req.body;
@@ -20,7 +19,7 @@ exports.createTask = async (req, res) => {
   }
 };
 
-// GET /api/tasks
+// GET /api/task
 exports.getTasks = async (req, res) => {
   try {
     const page = parseInt(req.query.page, 10) || 1;

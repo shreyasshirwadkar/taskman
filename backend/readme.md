@@ -109,9 +109,11 @@ http://localhost:5000/api
 
 ```json
 {
-  "title": "New Task",
-  "description": "Task description",
-  "status": "pending"
+  "title": "Task Title",
+  "description": "Task Description",
+  "startTime": "2024-03-07T10:00:00.000Z",
+  "endTime": "2024-03-07T12:00:00.000Z",
+  "priority": 3
 }
 ```
 
